@@ -1,11 +1,13 @@
 import React, { useState, useRef, useCallback } from 'react';
 import { GoogleMap, LoadScript, StreetViewPanorama } from '@react-google-maps/api';
+import { myApiKey } from './mapsConfigKey';
 
 const containerStyle = {
   width: '100%',
   height: '500px'
 };
 
+//Default location when loading the map
 const center = {
   lat: -1.2921,  // Latitude for Nairobi, Kenya
   lng: 36.8219,  // Longitude for Nairobi, Kenya
@@ -31,7 +33,7 @@ const App = () => {
   return (
     <div>
       <h1>Kenya Map with Street View</h1>
-      <LoadScript googleMapsApiKey="AIzaSyCQXFFkKMsCUBC_5LpaBARb4Gy8f8L_sD8">
+      <LoadScript googleMapsApiKey = {myApiKey}>
         {!streetView ? (
           <GoogleMap
             mapContainerStyle={containerStyle}
