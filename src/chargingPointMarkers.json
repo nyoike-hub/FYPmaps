@@ -1,0 +1,53 @@
+[
+    {
+      "town": "Mombasa",
+      "lat": -4.043477,
+      "lng": 39.668207
+    },
+    {
+      "town": "Mariakani",
+      "lat": -3.861400,
+      "lng": 39.473300
+    },
+    {
+      "town": "Voi",
+      "lat": -3.396470,
+      "lng": 38.556610
+    },
+    {
+      "town": "Mtito Andei",
+      "lat": -2.691710,
+      "lng": 38.165361
+    },
+    {
+      "town": "Kibwezi",
+      "lat": -2.426980,
+      "lng": 37.964211
+    },
+    {
+      "town": "Makindu",
+      "lat": -2.276200,
+      "lng": 37.826900
+    },
+    {
+      "town": "Sultan Hamud",
+      "lat": -2.081797,
+      "lng": 37.366829
+    },
+    {
+      "town": "Emali",
+      "lat": -2.084484,
+      "lng": 37.479420
+    },
+    {
+      "town": "Athi River",
+      "lat": -1.457070,
+      "lng": 36.978250
+    },
+    {
+      "town": "Nairobi",
+      "lat": -1.292066,
+      "lng": 36.821945
+    }
+  ]
+  
