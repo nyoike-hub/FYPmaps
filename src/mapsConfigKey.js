@@ -1,1 +1,0 @@
-export const myApiKey = "AIzaSyCQXFFkKMsCUBC_5LpaBARb4Gy8f8L_sD8";
